@@ -55,18 +55,6 @@ The application requires .Net Framework 4.7.1 to be installed. On Windows 10 sys
 
 AAX Audio Converter is configured to support high DPI monitors under Windows 10. It will scale properly when the user changes the DPI or scale factor. 
 
-## Download
-Windows setup package version 1.17.1, English and German, with manuals, plus FFmpeg executable:
-
-**[AaxAudioConverter-1.17.1-Setup.exe](https://github.com/audiamus/AaxAudioConverter/releases/download/v1.17.1/AaxAudioConverter-1.17.1-Setup.exe)**
-
-Manuals (also included in the setup package):
-
-**[English](https://github.com/audiamus/AaxAudioConverter/releases/download/v1.17.1/AaxAudioConverter.pdf)**
-
-**[German](https://github.com/audiamus/AaxAudioConverter/releases/download/v1.17.1/AaxAudioConverter.de.pdf)**
-
-
 ## Dependencies
 ### Audible account
 AAX Audio Converter needs the user's personal Audible activation code to be able to process his/her Audible audiobooks.
@@ -77,21 +65,7 @@ The easiest way to obtain the Audible activation code is to install and activate
 All audio processing in AAX Audio Converter, including DRM handling, is carried out by [FFmpeg](https://www.ffmpeg.org/). 
 The AAX Audio Converter installation package comes pre-bundled with a suitable FFmpeg.exe. 
 
-## Feedback
-Comments and questions can be posted in the discussions section here on GitHub or in the AAX Audio Converter chatroom on Gitter:
-
-[![Discussions](https://img.shields.io/badge/discussions-on%20GitHub-green)](https://github.com/audiamus/AaxAudioConverter/discussions)
-[![Gitter](https://badges.gitter.im/AaxAudioConverter/community.svg)](https://gitter.im/AaxAudioConverter/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
-In case of more serious matters, like bug reports and other unexpected behavior, visit the issue section here on GitHub: 
-
-[![GitHub issues](https://img.shields.io/github/issues/audiamus/AaxAudioConverter)](https://github.com/audiamus/AaxAudioConverter/issues)
-
-For exceptions, please provide the call stack as shown by the program. For diagnosis of unexpected behavior you can run AAX Audio Converter with the log option activated. Zip-compress the log file and upload/attach it to the issue, but read the privacy note in the manual first.    
-
 ## Anti-Piracy Notice
 Note that this software does not ‘crack’ the DRM or circumvent it in any other way. The application simply applies the user's own activation code (associated with his/her personal Audible account) to decrypt the audiobook in the same manner as the official audiobook playing software does. 
 
 Please only use this application for gaining full access to your own audiobooks for archiving/conversion/convenience. De-DRMed audiobooks must not be uploaded to open servers, torrents, or other methods of mass distribution. No help will be given to people doing such things. Authors, retailers and publishers all need to make a living, so that they can continue to produce audiobooks for us to listen to and enjoy.
-
-(*This blurb is borrowed from https://github.com/KrumpetPirate/AAXtoMP3 and https://apprenticealf.wordpress.com/*). 
