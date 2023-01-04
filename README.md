@@ -1,5 +1,10 @@
-# AAX Audio Converter
-Convert Audible aax files to mp3 and m4a/m4b
+# AAX M4a/M4b Audio Converter
+
+Forked from https://github.com/audiamus/AaxAudioConverter
+
+Going to modify to also convert from M4A or M4B to MP3
+
+Convert Audible aax files to mp3 and m4a/m4b, or m4a/m4b to mp3
 
 [![GitHub All Releases](https://img.shields.io/github/downloads/audiamus/AaxAudioConverter/total)](https://github.com/audiamus/AaxAudioConverter/releases) [![GitHub](https://img.shields.io/github/license/audiamus/AaxAudioConverter)](https://github.com/audiamus/AaxAudioConverter/blob/master/LICENSE) [![](https://img.shields.io/badge/platform-Windows-blue)](http://microsoft.com/windows) [![](https://img.shields.io/badge/language-C%23-blue)](http://csharp.net/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/audiamus/AaxAudioConverter)](https://github.com/audiamus/AaxAudioConverter/releases/latest)
 
