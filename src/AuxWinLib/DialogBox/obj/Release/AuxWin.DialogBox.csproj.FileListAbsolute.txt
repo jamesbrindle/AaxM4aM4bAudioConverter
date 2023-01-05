@@ -1,0 +1,4 @@
+D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWinLib\DialogBox\bin\Release\WindowsDialogBox.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWinLib\DialogBox\obj\Release\AuxWin.DialogBox.csproj.AssemblyReference.cache
+D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWinLib\DialogBox\obj\Release\AuxWin.DialogBox.csproj.CoreCompileInputs.cache
+D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWinLib\DialogBox\obj\Release\WindowsDialogBox.dll

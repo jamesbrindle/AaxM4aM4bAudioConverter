@@ -1,0 +1,9 @@
+D:\Repositories\AaxM4aM4bAudioConverter\src\TreeDecomposition\bin\Release\TreeDecomposition.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\TreeDecomposition\bin\Release\TreeDecomposition.pdb
+D:\Repositories\AaxM4aM4bAudioConverter\src\TreeDecomposition\bin\Release\UtilLib.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\TreeDecomposition\bin\Release\UtilLib.pdb
+D:\Repositories\AaxM4aM4bAudioConverter\src\TreeDecomposition\obj\Release\TreeDecomposition.csproj.AssemblyReference.cache
+D:\Repositories\AaxM4aM4bAudioConverter\src\TreeDecomposition\obj\Release\TreeDecomposition.csproj.CoreCompileInputs.cache
+D:\Repositories\AaxM4aM4bAudioConverter\src\TreeDecomposition\obj\Release\TreeDecomposition.csproj.CopyComplete
+D:\Repositories\AaxM4aM4bAudioConverter\src\TreeDecomposition\obj\Release\TreeDecomposition.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\TreeDecomposition\obj\Release\TreeDecomposition.pdb

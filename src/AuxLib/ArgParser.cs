@@ -79,8 +79,6 @@ namespace audiamus.aux
                 return arg;
         }
 
-
-
         public bool? FindBooleanArg(string tag)
         {
             string arg = FindArg(tag);

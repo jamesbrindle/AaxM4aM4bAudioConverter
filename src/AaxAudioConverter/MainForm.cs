@@ -191,8 +191,17 @@ namespace audiamus.aaxconv
 
             enableAll(true);
             var args = Environment.GetCommandLineArgs();
-            if (args.Length > 1)
-                addFile(args[1]);
+
+            foreach (var arg in args)
+            {
+                if (File.Exists(arg) &&
+                    Path.GetExtension(arg).ToLower() == ".aa" ||
+                    Path.GetExtension(arg).ToLower() == ".aax" ||
+                    Path.GetExtension(arg).ToLower() == ".m4a" ||
+                    Path.GetExtension(arg).ToLower() == ".m4b")
+
+                    addFile(arg);
+            }
 
             await ensureFFmpegPathAsync();
         }

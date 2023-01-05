@@ -1,0 +1,17 @@
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\bin\Release\AaxAudioConverterLib.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\bin\Release\AaxAudioConverterLib.pdb
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\bin\Release\ATL.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\bin\Release\AuxWin32Lib.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\bin\Release\Newtonsoft.Json.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\bin\Release\TreeDecomposition.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\bin\Release\UtilLib.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\bin\Release\UtilLib.pdb
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\bin\Release\AuxWin32Lib.pdb
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\bin\Release\TreeDecomposition.pdb
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\bin\Release\ATL.xml
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\bin\Release\Newtonsoft.Json.xml
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\obj\Release\AaxAudioConverterLib.csproj.AssemblyReference.cache
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\obj\Release\AaxAudioConverterLib.csproj.CoreCompileInputs.cache
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\obj\Release\AaxAudioConverterLib.csproj.CopyComplete
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\obj\Release\AaxAudioConverterLib.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\AaxAudioConverterLib\obj\Release\AaxAudioConverterLib.pdb
