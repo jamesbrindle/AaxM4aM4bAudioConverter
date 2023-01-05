@@ -19,7 +19,7 @@ namespace audiamus.aaxconv.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -190,7 +190,7 @@ namespace audiamus.aaxconv.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Audible files (*.aax)|*.aax|Audible files (*.aa)|*.aa|All Audible files (*.aax; *.aa)| *.aax; *.aa.
+        ///   Looks up a localized string similar to All Valid Files (*.aax; *.aa; *.m4a; *.m4b)|*.aax; *.aa; *.m4a; *.m4b|Audible files (*.aax)|*.aax|Audible files (*.aa)|*.aa|All Audible files (*.aax; *.aa)| *.aax; *.aa|M4 files (*.m4a; *.m4b)| *.m4a; *.m4b.
         /// </summary>
         internal static string FilterAudibleFiles {
             get {
@@ -570,7 +570,7 @@ namespace audiamus.aaxconv.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Actual file format is not AAX or AA..
+        ///   Looks up a localized string similar to Actual file format is not AAX, AA, M4A or M4B..
         /// </summary>
         internal static string MsgInvalidInternalFileType {
             get {

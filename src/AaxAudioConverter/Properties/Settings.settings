@@ -144,7 +144,7 @@
       <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="M4B" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
+      <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="AaxCopyMode" Type="audiamus.aaxconv.lib.EAaxCopyMode" Scope="User">
       <Value Profile="(Default)">no</Value>

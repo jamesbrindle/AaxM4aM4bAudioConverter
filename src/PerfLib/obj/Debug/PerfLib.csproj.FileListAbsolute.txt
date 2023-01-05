@@ -1,0 +1,9 @@
+D:\Repositories\AaxM4aM4bAudioConverter\src\PerfLib\bin\Debug\PerfLib.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\PerfLib\bin\Debug\PerfLib.pdb
+D:\Repositories\AaxM4aM4bAudioConverter\src\PerfLib\bin\Debug\UtilLib.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\PerfLib\bin\Debug\UtilLib.pdb
+D:\Repositories\AaxM4aM4bAudioConverter\src\PerfLib\obj\Debug\PerfLib.csproj.AssemblyReference.cache
+D:\Repositories\AaxM4aM4bAudioConverter\src\PerfLib\obj\Debug\PerfLib.csproj.CoreCompileInputs.cache
+D:\Repositories\AaxM4aM4bAudioConverter\src\PerfLib\obj\Debug\PerfLib.csproj.CopyComplete
+D:\Repositories\AaxM4aM4bAudioConverter\src\PerfLib\obj\Debug\PerfLib.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\PerfLib\obj\Debug\PerfLib.pdb

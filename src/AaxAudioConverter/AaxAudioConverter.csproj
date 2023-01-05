@@ -262,9 +262,6 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="AaxAudioConverter.de.odt" />
-    <None Include="AaxAudioConverter.de.pdf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="AaxAudioConverter.odt" />
     <None Include="AaxAudioConverter.pdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

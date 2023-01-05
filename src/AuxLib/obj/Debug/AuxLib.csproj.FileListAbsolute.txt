@@ -1,0 +1,6 @@
+D:\Repositories\AaxM4aM4bAudioConverter\src\AuxLib\bin\Debug\UtilLib.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\AuxLib\bin\Debug\UtilLib.pdb
+D:\Repositories\AaxM4aM4bAudioConverter\src\AuxLib\obj\Debug\AuxLib.csproj.AssemblyReference.cache
+D:\Repositories\AaxM4aM4bAudioConverter\src\AuxLib\obj\Debug\AuxLib.csproj.CoreCompileInputs.cache
+D:\Repositories\AaxM4aM4bAudioConverter\src\AuxLib\obj\Debug\UtilLib.dll
+D:\Repositories\AaxM4aM4bAudioConverter\src\AuxLib\obj\Debug\UtilLib.pdb
