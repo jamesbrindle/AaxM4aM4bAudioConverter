@@ -8,7 +8,7 @@
     <ProjectGuid>{D186DE5D-0DEC-4FE8-80BC-9F473E804604}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>audiamus.aaxconv</RootNamespace>
-    <AssemblyName>AaxAudioConverter</AssemblyName>
+    <AssemblyName>AaxM4aM4bAudioConverter</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -263,7 +263,7 @@
     </EmbeddedResource>
     <None Include="AaxAudioConverter.de.odt" />
     <None Include="AaxAudioConverter.odt" />
-    <None Include="AaxAudioConverter.pdf">
+    <None Include="AaxM4aM4bAudioConverter.pdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="app.manifest" />

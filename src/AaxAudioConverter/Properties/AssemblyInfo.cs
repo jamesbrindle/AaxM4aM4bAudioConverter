@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AAX Audio Converter")]
+[assembly: AssemblyTitle("AAX/M4A/M4B Audio Converter")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("audiamus")]
-[assembly: AssemblyProduct("AaxAudioConverter")]
+[assembly: AssemblyProduct("AaxM4aM4bAudioConverter")]
 [assembly: AssemblyCopyright("Copyright © 2019 - 2021 audiamus")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
