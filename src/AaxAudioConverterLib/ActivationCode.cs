@@ -1,6 +1,7 @@
 ﻿using audiamus.aaxconv.lib.ex;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using static audiamus.aux.Logging;
@@ -33,28 +34,55 @@ namespace audiamus.aaxconv.lib
         {
             _activationCodes.Clear();
 
+            // Code in settings
+
             if (_settings.ActivationCode.HasValue)
             {
                 Log(2, this, "add from user settings");
                 _activationCodes.Add(_settings.ActivationCode.Value.ToHexString());
             }
 
+            // Audible-cli
+
+            try
             {
-                ActivationCodeRegistry registryCodes = new ActivationCodeRegistry();
-                if (registryCodes.HasActivationCode)
+                string audibleCliConfigPath =
+                    Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Audible");
+
+                if (!string.IsNullOrEmpty(audibleCliConfigPath))
                 {
-                    Log(2, this, $"add from registry (#={registryCodes.ActivationCodes.Count()})");
-                    _activationCodes = _activationCodes.Union(registryCodes.ActivationCodes).ToList();
+                    foreach (var file in Directory.GetFiles(audibleCliConfigPath, "*.*", SearchOption.AllDirectories))
+                    {
+                        try
+                        {
+                            string activationBytes = Newtonsoft.Json.JsonConvert.DeserializeObject<AudibleCliProfile>(File.ReadAllText(file)).activation_bytes;
+
+                            if (!string.IsNullOrEmpty(activationBytes))
+                            {
+                                if (!_activationCodes.Contains(activationBytes))
+                                    _activationCodes.Add(activationBytes);
+                            }
+                        }
+                        catch { }
+                    }
                 }
             }
+            catch { }
 
+            // Audible app or Audible Manager
+
+            ActivationCodeRegistry registryCodes = new ActivationCodeRegistry();
+            if (registryCodes.HasActivationCode)
             {
-                ActivationCodeApp appCodes = new ActivationCodeApp();
-                if (appCodes.HasActivationCode)
-                {
-                    Log(2, this, $"add from app (#={appCodes.ActivationCodes.Count()})");
-                    _activationCodes = _activationCodes.Union(appCodes.ActivationCodes).ToList();
-                }
+                Log(2, this, $"add from registry (#={registryCodes.ActivationCodes.Count()})");
+                _activationCodes = _activationCodes.Union(registryCodes.ActivationCodes).ToList();
+            }
+
+            ActivationCodeApp appCodes = new ActivationCodeApp();
+            if (appCodes.HasActivationCode)
+            {
+                Log(2, this, $"add from app (#={appCodes.ActivationCodes.Count()})");
+                _activationCodes = _activationCodes.Union(appCodes.ActivationCodes).ToList();
             }
 
             Log(2, this, $"#unique={_activationCodes.Count}");
@@ -64,6 +92,53 @@ namespace audiamus.aaxconv.lib
         {
             init();
             return HasActivationCode;
+        }
+    }
+
+    internal class AudibleCliProfile
+    {
+        public Website_Cookies website_cookies { get; set; }
+        public string adp_token { get; set; }
+        public string access_token { get; set; }
+        public string refresh_token { get; set; }
+        public string device_private_key { get; set; }
+        public Store_Authentication_Cookie store_authentication_cookie { get; set; }
+        public Device_Info device_info { get; set; }
+        public Customer_Info customer_info { get; set; }
+        public float expires { get; set; }
+        public string locale_code { get; set; }
+        public bool with_username { get; set; }
+        public string activation_bytes { get; set; }
+
+
+        public class Website_Cookies
+        {
+            public string sessionid { get; set; }
+            public string ubidacbuk { get; set; }
+            public string xacbuk { get; set; }
+            public string atacbuk { get; set; }
+            public string sessatacbuk { get; set; }
+        }
+
+        public class Store_Authentication_Cookie
+        {
+            public string cookie { get; set; }
+        }
+
+        public class Device_Info
+        {
+            public string device_name { get; set; }
+            public string device_serial_number { get; set; }
+            public string device_type { get; set; }
+        }
+
+        public class Customer_Info
+        {
+            public string account_pool { get; set; }
+            public string user_id { get; set; }
+            public string home_region { get; set; }
+            public string name { get; set; }
+            public string given_name { get; set; }
         }
     }
 
