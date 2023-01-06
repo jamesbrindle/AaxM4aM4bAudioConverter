@@ -1,8 +1,13 @@
 # AAX M4a/M4b Audio Converter
 
-Forked from https://github.com/audiamus/AaxAudioConverter
+### Forked from https://github.com/audiamus/AaxAudioConverter
 
-Going to modify to also convert from M4A or M4B to MP3
+Modified slightly, to allow splitting of M4a and M4b files to MP3 by chapter (and / or time).
+
+It was restricted to AAX files, but all the code is more or less the same, just lifted the file-type restrictions.
+
+
+## Original README.md Below
 
 Convert Audible aax files to mp3 and m4a/m4b, or m4a/m4b to mp3
 
