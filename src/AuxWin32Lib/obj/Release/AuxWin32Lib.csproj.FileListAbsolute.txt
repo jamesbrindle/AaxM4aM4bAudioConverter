@@ -1,6 +1,0 @@
-D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWin32Lib\bin\Release\AuxWin32Lib.dll
-D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWin32Lib\bin\Release\AuxWin32Lib.pdb
-D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWin32Lib\obj\Release\AuxWin32Lib.csproj.AssemblyReference.cache
-D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWin32Lib\obj\Release\AuxWin32Lib.csproj.CoreCompileInputs.cache
-D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWin32Lib\obj\Release\AuxWin32Lib.dll
-D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWin32Lib\obj\Release\AuxWin32Lib.pdb

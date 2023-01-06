@@ -1,6 +1,0 @@
-D:\Repositories\AaxM4aM4bAudioConverter\src\PropGridLib\bin\Debug\PropGridLib.dll
-D:\Repositories\AaxM4aM4bAudioConverter\src\PropGridLib\bin\Debug\PropGridLib.pdb
-D:\Repositories\AaxM4aM4bAudioConverter\src\PropGridLib\obj\Debug\PropGridLib.csproj.AssemblyReference.cache
-D:\Repositories\AaxM4aM4bAudioConverter\src\PropGridLib\obj\Debug\PropGridLib.csproj.CoreCompileInputs.cache
-D:\Repositories\AaxM4aM4bAudioConverter\src\PropGridLib\obj\Debug\PropGridLib.dll
-D:\Repositories\AaxM4aM4bAudioConverter\src\PropGridLib\obj\Debug\PropGridLib.pdb

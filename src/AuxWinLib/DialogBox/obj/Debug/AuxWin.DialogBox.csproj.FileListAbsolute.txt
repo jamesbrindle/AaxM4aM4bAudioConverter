@@ -1,6 +1,0 @@
-D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWinLib\DialogBox\bin\Debug\WindowsDialogBox.dll
-D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWinLib\DialogBox\bin\Debug\WindowsDialogBox.pdb
-D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWinLib\DialogBox\obj\Debug\AuxWin.DialogBox.csproj.AssemblyReference.cache
-D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWinLib\DialogBox\obj\Debug\AuxWin.DialogBox.csproj.CoreCompileInputs.cache
-D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWinLib\DialogBox\obj\Debug\WindowsDialogBox.dll
-D:\Repositories\AaxM4aM4bAudioConverter\src\AuxWinLib\DialogBox\obj\Debug\WindowsDialogBox.pdb
